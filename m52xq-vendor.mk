@@ -25,50 +25,35 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m52xq/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/samsung/m52xq/proprietary/vendor/firmware/bt_nvm_loading.xml:$(TARGET_COPY_OUT_VENDOR)/firmware/bt_nvm_loading.xml \
     vendor/samsung/m52xq/proprietary/vendor/firmware/dax_param.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dax_param.bin \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526b/rev2/wpss.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526b/rev2/wpss.b00 \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526b/rev2/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526b/rev2/wpss.b01 \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526b/rev2/wpss.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526b/rev2/wpss.b02 \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526b/rev2/wpss.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526b/rev2/wpss.b03 \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526b/rev2/wpss.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526b/rev2/wpss.b04 \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526b/rev2/wpss.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526b/rev2/wpss.b05 \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526b/rev2/wpss.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526b/rev2/wpss.b06 \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526b/rev2/wpss.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526b/rev2/wpss.b07 \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526b/rev2/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526b/rev2/wpss.mdt \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526b/rev2/yupik_ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526b/rev2/yupik_ipa_fws.b01 \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526b/rev2/yupik_ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526b/rev2/yupik_ipa_fws.elf \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526b/rev2/yupik_ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526b/rev2/yupik_ipa_fws.mdt \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526b/rev3/wpss.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526b/rev3/wpss.b00 \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526b/rev3/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526b/rev3/wpss.b01 \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526b/rev3/wpss.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526b/rev3/wpss.b02 \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526b/rev3/wpss.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526b/rev3/wpss.b03 \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526b/rev3/wpss.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526b/rev3/wpss.b04 \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526b/rev3/wpss.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526b/rev3/wpss.b05 \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526b/rev3/wpss.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526b/rev3/wpss.b06 \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526b/rev3/wpss.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526b/rev3/wpss.b07 \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526b/rev3/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526b/rev3/wpss.mdt \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526b/rev3/yupik_ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526b/rev3/yupik_ipa_fws.b01 \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526b/rev3/yupik_ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526b/rev3/yupik_ipa_fws.elf \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526b/rev3/yupik_ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526b/rev3/yupik_ipa_fws.mdt \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526br/rev1/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526br/rev1/wpss.b01 \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526br/rev1/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526br/rev1/wpss.mdt \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526br/rev1/yupik_ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526br/rev1/yupik_ipa_fws.b01 \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526br/rev1/yupik_ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526br/rev1/yupik_ipa_fws.elf \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526br/rev1/yupik_ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526br/rev1/yupik_ipa_fws.mdt \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526br/rev2/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526br/rev2/wpss.b01 \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526br/rev2/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526br/rev2/wpss.mdt \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526br/rev2/yupik_ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526br/rev2/yupik_ipa_fws.b01 \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526br/rev2/yupik_ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526br/rev2/yupik_ipa_fws.elf \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526br/rev2/yupik_ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526br/rev2/yupik_ipa_fws.mdt \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526br/rev3/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526br/rev3/wpss.b01 \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526br/rev3/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526br/rev3/wpss.mdt \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526br/rev3/yupik_ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526br/rev3/yupik_ipa_fws.b01 \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526br/rev3/yupik_ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526br/rev3/yupik_ipa_fws.elf \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/ipa/m526br/rev3/yupik_ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/m526br/rev3/yupik_ipa_fws.mdt \
     vendor/samsung/m52xq/proprietary/vendor/firmware/qca6750/bdwlan.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/qca6750/bdwlan.elf \
     vendor/samsung/m52xq/proprietary/vendor/firmware/qca6750/bdwlan.elf10:$(TARGET_COPY_OUT_VENDOR)/firmware/qca6750/bdwlan.elf10 \
     vendor/samsung/m52xq/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
     vendor/samsung/m52xq/proprietary/vendor/firmware/tsp_synaptics/s3908_m52xq_boe.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tsp_synaptics/s3908_m52xq_boe.bin \
     vendor/samsung/m52xq/proprietary/vendor/firmware/tsp_synaptics/s3908_m52xq_sdc.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tsp_synaptics/s3908_m52xq_sdc.bin \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526b/rev2/wpss.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526b/rev2/wpss.b00 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526b/rev2/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526b/rev2/wpss.b01 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526b/rev2/wpss.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526b/rev2/wpss.b02 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526b/rev2/wpss.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526b/rev2/wpss.b03 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526b/rev2/wpss.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526b/rev2/wpss.b04 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526b/rev2/wpss.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526b/rev2/wpss.b05 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526b/rev2/wpss.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526b/rev2/wpss.b06 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526b/rev2/wpss.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526b/rev2/wpss.b07 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526b/rev2/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526b/rev2/wpss.mdt \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526b/rev3/wpss.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526b/rev3/wpss.b00 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526b/rev3/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526b/rev3/wpss.b01 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526b/rev3/wpss.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526b/rev3/wpss.b02 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526b/rev3/wpss.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526b/rev3/wpss.b03 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526b/rev3/wpss.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526b/rev3/wpss.b04 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526b/rev3/wpss.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526b/rev3/wpss.b05 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526b/rev3/wpss.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526b/rev3/wpss.b06 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526b/rev3/wpss.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526b/rev3/wpss.b07 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526b/rev3/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526b/rev3/wpss.mdt \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526br/rev1/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526br/rev1/wpss.b01 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526br/rev1/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526br/rev1/wpss.mdt \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526br/rev2/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526br/rev2/wpss.b01 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526br/rev2/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526br/rev2/wpss.mdt \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526br/rev3/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526br/rev3/wpss.b01 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526br/rev3/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526br/rev3/wpss.mdt \
     vendor/samsung/m52xq/proprietary/vendor/firmware/wpss.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b00 \
     vendor/samsung/m52xq/proprietary/vendor/firmware/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b01 \
     vendor/samsung/m52xq/proprietary/vendor/firmware/wpss.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b02 \
@@ -78,13 +63,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m52xq/proprietary/vendor/firmware/wpss.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b06 \
     vendor/samsung/m52xq/proprietary/vendor/firmware/wpss.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b07 \
     vendor/samsung/m52xq/proprietary/vendor/firmware/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.mdt \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/yupik_ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.b00 \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/yupik_ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.b01 \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/yupik_ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.b02 \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/yupik_ipa_fws.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.b03 \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/yupik_ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.b04 \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/yupik_ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.elf \
-    vendor/samsung/m52xq/proprietary/vendor/firmware/yupik_ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.mdt \
     vendor/samsung/m52xq/proprietary/vendor/lib/camera/com.qti.eeprom.irs2381c_polar.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.irs2381c_polar.so \
     vendor/samsung/m52xq/proprietary/vendor/lib/camera/com.qti.eeprom.n24s64b_imx616.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.n24s64b_imx616.so \
     vendor/samsung/m52xq/proprietary/vendor/lib/camera/com.qti.eeprom.sec2qcconversion.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.sec2qcconversion.so \
