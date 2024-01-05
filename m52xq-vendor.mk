@@ -15,6 +15,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m52xq/proprietary/vendor/etc/audconf/OPEN/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/Speaker_cal.acdb \
     vendor/samsung/m52xq/proprietary/vendor/etc/audconf/OPEN/workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/workspaceFile.qwsp \
     vendor/samsung/m52xq/proprietary/vendor/etc/qdcm_calib_data_ss_dsi_panel_S6E3FA9_AMB667UM36_FHD.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ss_dsi_panel_S6E3FA9_AMB667UM36_FHD.xml \
+    vendor/samsung/m52xq/proprietary/vendor/etc/qdcm_calib_data_ss_dsi_panel_S6E3FC3_AMS646YD01_FHD.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ss_dsi_panel_S6E3FC3_AMS646YD01_FHD.xml \
     vendor/samsung/m52xq/proprietary/vendor/etc/qdcm_calib_data_ss_dsi_panel_S6E3HAB_AMB667AN01_FHD.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ss_dsi_panel_S6E3HAB_AMB667AN01_FHD.xml \
     vendor/samsung/m52xq/proprietary/vendor/etc/qdcm_calib_data_ss_dsi_panel_SW83109_BF067XMM_FHD.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ss_dsi_panel_SW83109_BF067XMM_FHD.xml \
     vendor/samsung/m52xq/proprietary/vendor/etc/sensors/config/kodiak_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_ak991x_0.json \
