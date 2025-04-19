@@ -121,16 +121,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m52xq/proprietary/vendor/firmware/wpss.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b06 \
     vendor/samsung/m52xq/proprietary/vendor/firmware/wpss.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b07 \
     vendor/samsung/m52xq/proprietary/vendor/firmware/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.mdt \
-    vendor/samsung/m52xq/proprietary/vendor/lib/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.default.bin \
-    vendor/samsung/m52xq/proprietary/vendor/lib/camera/com.samsung.sensormodule.0_lsi_s5kgw3.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensormodule.0_lsi_s5kgw3.bin \
-    vendor/samsung/m52xq/proprietary/vendor/lib/camera/com.samsung.sensormodule.13_sony_imx616_full.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensormodule.13_sony_imx616_full.bin \
-    vendor/samsung/m52xq/proprietary/vendor/lib/camera/com.samsung.sensormodule.1_sony_imx616.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensormodule.1_sony_imx616.bin \
-    vendor/samsung/m52xq/proprietary/vendor/lib/camera/com.samsung.sensormodule.2_sony_imx258.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensormodule.2_sony_imx258.bin \
-    vendor/samsung/m52xq/proprietary/vendor/lib/camera/com.samsung.sensormodule.4_lsi_gc5035_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.sensormodule.4_lsi_gc5035_macro.bin \
-    vendor/samsung/m52xq/proprietary/vendor/lib/camera/com.samsung.tuned.lsi_gc5035_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.tuned.lsi_gc5035_macro.bin \
-    vendor/samsung/m52xq/proprietary/vendor/lib/camera/com.samsung.tuned.lsi_s5kgw3.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.tuned.lsi_s5kgw3.bin \
-    vendor/samsung/m52xq/proprietary/vendor/lib/camera/com.samsung.tuned.sony_imx258.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.tuned.sony_imx258.bin \
-    vendor/samsung/m52xq/proprietary/vendor/lib/camera/com.samsung.tuned.sony_imx616.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.samsung.tuned.sony_imx616.bin \
     vendor/samsung/m52xq/proprietary/vendor/lib64/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.default.bin \
     vendor/samsung/m52xq/proprietary/vendor/lib64/camera/com.samsung.sensormodule.0_lsi_s5kgw3.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensormodule.0_lsi_s5kgw3.bin \
     vendor/samsung/m52xq/proprietary/vendor/lib64/camera/com.samsung.sensormodule.13_sony_imx616_full.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensormodule.13_sony_imx616_full.bin \
@@ -147,6 +137,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m52xq/proprietary/vendor/lib64/camera/w_dual_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/w_dual_calibration.bin
 
 PRODUCT_PACKAGES += \
+    sensors.grip \
+    sensors.ssc \
+    audio.primary.lahaina \
+    libspeakercalibration \
     com.qti.eeprom.irs2381c_polar \
     com.qti.eeprom.n24s64b_imx616 \
     com.qti.eeprom.sec2qcconversion \
@@ -179,13 +173,19 @@ PRODUCT_PACKAGES += \
     com.qti.node.swmfnr \
     com.qti.node.swpreprocess \
     com.qti.node.swregistration \
+    com.qti.stats.aec \
     com.qti.stats.aecwrapper \
+    com.qti.stats.aecxcore \
+    com.qti.stats.af \
     com.qti.stats.afd \
     com.qti.stats.afwrapper \
     com.qti.stats.asd \
+    com.qti.stats.awb \
     com.qti.stats.awbwrapper \
     com.qti.stats.cnndriver \
+    com.qti.stats.haf \
     com.qti.stats.hafoverride \
+    com.qti.stats.pdlib \
     com.qti.stats.pdlibsony \
     com.qti.stats.pdlibwrapper \
     com.qti.stats.tracker \
@@ -207,6 +207,7 @@ PRODUCT_PACKAGES += \
     com.ss.stats.af \
     com.ss.stats.awb \
     com.ss.stats.pdlib \
+    libdepthmapwrapper_secure \
     com.qti.feature2.anchorsync \
     com.qti.feature2.demux \
     com.qti.feature2.derivedoffline \
@@ -232,22 +233,11 @@ PRODUCT_PACKAGES += \
     com.qti.feature2.swmf \
     camera.qcom \
     com.qti.chi.override \
-    libremosaic_wrapper \
-    sensors.grip \
-    sensors.ssc \
-    audio.primary.lahaina \
-    libspeakercalibration \
-    com.qti.stats.aec \
-    com.qti.stats.aecxcore \
-    com.qti.stats.af \
-    com.qti.stats.awb \
-    com.qti.stats.haf \
-    com.qti.stats.pdlib \
-    libdepthmapwrapper_secure \
     libbauthserver \
     libbauthtzcommon \
     libegis_fp_normal_sensor_test \
     libgf_in_system_lib \
     libqfp_sensortest \
+    libremosaic_wrapper \
     libsec2qc_conversion \
     libsynaFpSensorTestNwd
