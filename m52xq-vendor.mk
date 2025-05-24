@@ -79,6 +79,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526b/rev6/wpss.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526b/rev6/wpss.b06 \
     vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526b/rev6/wpss.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526b/rev6/wpss.b07 \
     vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526b/rev6/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526b/rev6/wpss.mdt \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526b/rev7/wpss.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526b/rev7/wpss.b00 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526b/rev7/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526b/rev7/wpss.b01 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526b/rev7/wpss.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526b/rev7/wpss.b02 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526b/rev7/wpss.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526b/rev7/wpss.b03 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526b/rev7/wpss.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526b/rev7/wpss.b04 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526b/rev7/wpss.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526b/rev7/wpss.b05 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526b/rev7/wpss.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526b/rev7/wpss.b06 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526b/rev7/wpss.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526b/rev7/wpss.b07 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526b/rev7/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526b/rev7/wpss.mdt \
     vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526br/rev1/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526br/rev1/wpss.b01 \
     vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526br/rev1/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526br/rev1/wpss.mdt \
     vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526br/rev2/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526br/rev2/wpss.b01 \
@@ -112,6 +121,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526br/rev6/wpss.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526br/rev6/wpss.b06 \
     vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526br/rev6/wpss.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526br/rev6/wpss.b07 \
     vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526br/rev6/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526br/rev6/wpss.mdt \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526br/rev7/wpss.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526br/rev7/wpss.b00 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526br/rev7/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526br/rev7/wpss.b01 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526br/rev7/wpss.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526br/rev7/wpss.b02 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526br/rev7/wpss.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526br/rev7/wpss.b03 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526br/rev7/wpss.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526br/rev7/wpss.b04 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526br/rev7/wpss.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526br/rev7/wpss.b05 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526br/rev7/wpss.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526br/rev7/wpss.b06 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526br/rev7/wpss.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526br/rev7/wpss.b07 \
+    vendor/samsung/m52xq/proprietary/vendor/firmware/wlan/m526br/rev7/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/m526br/rev7/wpss.mdt \
     vendor/samsung/m52xq/proprietary/vendor/firmware/wpss.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b00 \
     vendor/samsung/m52xq/proprietary/vendor/firmware/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b01 \
     vendor/samsung/m52xq/proprietary/vendor/firmware/wpss.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b02 \
